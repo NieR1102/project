@@ -30,7 +30,24 @@ window.onload=function(){
                 //显隐
                 $(function(){
                     $('#toggle_hidebox').click(function(){
+                        // $('#h_top').toggle();
+                        
                         $('#h_top').toggle();
+                        //盒子固定定位为啥不行呢
+                        var iclass=$('#h_top').attr('display');
+                        if(iclass=='block'){
+                            $('#h_top').css({
+                                position:fixed,
+                                left:0,
+                                top:0
+                            }),
+                            $('#header').css('top',312),
+                            $('#nav').css('top',354)
+                        }
+                        else{
+                            $('#header').css('top',0),
+                            $('#nav').css('top',42)
+                        }
                     });
                 });
                 //关闭盒子

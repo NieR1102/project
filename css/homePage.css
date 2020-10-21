@@ -2,7 +2,7 @@ html {
     background-color: #ffffff;
 }
 
-#Occlude {
+/* #Occlude {
     position: absolute;
     top: 0;
     left: 0;
@@ -10,7 +10,7 @@ html {
     opacity: 0.3;
     z-index: 2;
     display: none;
-}
+} */
 
 #h_top {
     position: relative;
@@ -280,6 +280,10 @@ span {
 
 #nav .navi .first_menu .Second_menu_list li:hover {
     color: red;
+}
+
+#nav .navi .first_menu .Second_menu .second_flexbox span {
+    width: 160px;
 }
 
 #nav .searchbox {
