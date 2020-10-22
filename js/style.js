@@ -119,5 +119,12 @@ window.onload=function(){
                     backToTop();
                 })
                 show();
-        
+                $('.loadtap').on('click',function(){
+                    // $(window).attr('location',"${pageContext.request.contextPath }/tp/addTp");
+                    $(window).attr('location',"./login.html")
+                })
+                $('.loadtohome').on('click',function(){
+                    // $(window).attr('location',"${pageContext.request.contextPath }/tp/addTp");
+                    $(window).attr('location',"./home.html")
+                })
 }
