@@ -33,7 +33,7 @@ window.onload=function(){
                         // $('#h_top').toggle();
                         
                         $('#h_top').toggle();
-                        //盒子固定定位为啥不行呢
+                        
                         var iclass=$('#h_top').attr('display');
                         if(iclass=='block'){
                             $('#h_top').css({
