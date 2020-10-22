@@ -33,7 +33,6 @@ window.onload=function(){
                         // $('#h_top').toggle();
                         
                         $('#h_top').toggle();
-                        
                         var iclass=$('#h_top').attr('display');
                         if(iclass=='block'){
                             $('#h_top').css({
