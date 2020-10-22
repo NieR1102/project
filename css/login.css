@@ -28,6 +28,8 @@
     top: 185px;
     padding: 0 15px 30px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
 }
 
 #totalbox h2 {
@@ -36,7 +38,7 @@
 
 #totalbox .loginbox {
     width: 570px;
-    height: 350px;
+    height: 460px;
     padding: 15px;
     background-color: #f1f1f1;
     font-size: 16px;
@@ -90,6 +92,77 @@
 }
 
 #totalbox .loginbox .password_login span::before {
+    content: "*";
+    color: red;
+    font-size: 10px;
+    left: 0;
+    top: -2px;
+}
+
+#totalbox .registbox {
+    width: 570px;
+    height: 350px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    color: #000;
+    overflow: hidden;
+}
+
+#totalbox .registbox {
+    padding: 5px 0;
+    color: #222222;
+    font-size: 22px;
+}
+
+#totalbox .registbox .email_login {
+    height: 75px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+#totalbox .registbox .password_login {
+    height: 75px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+#totalbox .registbox .name_login {
+    height: 75px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+#totalbox .registbox .email_login span,
+#totalbox .registbox .password_login span,
+#totalbox .registbox .name_login span {
+    color: #666;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: left;
+}
+
+#totalbox .registbox .email_login input,
+#totalbox .registbox .password_login input,
+#totalbox .registbox .name_login input {
+    outline: none;
+    border: 1px solid #ccc;
+    height: 35px;
+    padding: 6px 15px 8px;
+    box-sizing: border-box;
+    background-color: #e8f0fe;
+    width: 100%;
+}
+
+#totalbox .registbox .email_login span::before {
+    content: "*";
+    color: red;
+    font-size: 10px;
+    left: 0;
+    top: -2px;
+}
+
+#totalbox .registbox .password_login span::before {
     content: "*";
     color: red;
     font-size: 10px;
